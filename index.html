@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium herbal products for natural wellness. Discover organic herbs, supplements, and natural remedies for a healthier lifestyle.">
+    <meta name="keywords" content="herbal products, natural supplements, organic herbs, wellness, natural remedies">
+    <meta name="author" content="Herbal Wellness Store">
+    <title>Herbal Wellness - Premium Natural Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#" class="brand-logo" aria-label="Herbal Wellness Home">
+                    🌿 Herbal Wellness
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="cart-btn" aria-label="shopping cart">
+                    🛒 Cart <span class="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" role="banner">
+        <div class="hero-content">
+            <h1 class="hero-title">Natural Wellness, Pure Herbs</h1>
+            <p class="hero-subtitle">Discover the power of nature with our premium collection of organic herbal products, carefully sourced for your health and vitality.</p>
+            <button class="cta-btn" onclick="scrollToSection('products')">Shop Natural Products</button>
+        </div>
+        <div class="hero-image">
+            <svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="herbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+                <rect width="400" height="300" fill="#E8F5E8"/>
+                <circle cx="100" cy="100" r="30" fill="url(#herbGrad)"/>
+                <circle cx="200" cy="150" r="25" fill="#66BB6A"/>
+                <circle cx="300" cy="80" r="35" fill="#4CAF50"/>
+                <path d="M50 200 Q200 150 350 220" stroke="#2E7D32" stroke-width="3" fill="none"/>
+                <text x="200" y="250" text-anchor="middle" fill="#2E7D32" font-size="18" font-weight="bold">🌿 Natural Herbs 🌿</text>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Herb Finder Quiz -->
+    <section id="quiz" class="quiz-section">
+        <div class="container">
+            <h2>Find Your Perfect Herb</h2>
+            <p>Take our quick quiz to discover which herbal product is right for you!</p>
+            <div class="quiz-container" style="display: none;">
+                <div class="quiz-question active" data-question="1">
+                    <h3>What's your primary wellness goal?</h3>
+                    <div class="quiz-options">
+                        <button class="quiz-option" data-value="energy">Boost Energy & Focus</button>
+                        <button class="quiz-option" data-value="stress">Reduce Stress & Anxiety</button>
+                        <button class="quiz-option" data-value="sleep">Improve Sleep Quality</button>
+                        <button class="quiz-option" data-value="immunity">Strengthen Immunity</button>
+                    </div>
+                </div>
+                <div class="quiz-question" data-question="2">
+                    <h3>How do you prefer to take supplements?</h3>
+                    <div class="quiz-options">
+                        <button class="quiz-option" data-value="tea">Herbal Tea</button>
+                        <button class="quiz-option" data-value="capsule">Capsules/Pills</button>
+                        <button class="quiz-option" data-value="powder">Powder/Extract</button>
+                        <button class="quiz-option" data-value="oil">Essential Oil</button>
+                    </div>
+                </div>
+                <div class="quiz-question" data-question="3">
+                    <h3>What's your experience with herbal products?</h3>
+                    <div class="quiz-options">
+                        <button class="quiz-option" data-value="beginner">New to herbs</button>
+                        <button class="quiz-option" data-value="intermediate">Some experience</button>
+                        <button class="quiz-option" data-value="advanced">Very experienced</button>
+                    </div>
+                </div>
+                <div class="quiz-result" style="display: none;">
+                    <h3>Your Recommended Product:</h3>
+                    <div class="recommended-product"></div>
+                </div>
+            </div>
+            <button class="quiz-start-btn">Start Quiz</button>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <h2>Our Premium Herbal Products</h2>
+            
+            <!-- Search and Filters -->
+            <div class="search-filter-container">
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Search products..." aria-label="search products">
+                    <span class="search-icon">🔍</span>
+                </div>
+                
+                <div class="filters">
+                    <select id="category-filter" aria-label="filter by category">
+                        <option value="">All Categories</option>
+                        <option value="tea">Herbal Teas</option>
+                        <option value="supplement">Supplements</option>
+                        <option value="oil">Essential Oils</option>
+                        <option value="powder">Powders</option>
+                    </select>
+                    
+                    <select id="sort-select" aria-label="sort products">
+                        <option value="popularity">Sort by Popularity</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="rating">Highest Rated</option>
+                    </select>
+                    
+                    <div class="price-filter">
+                        <label for="price-range">Price Range: $<span id="price-value">50</span></label>
+                        <input type="range" id="price-range" min="0" max="100" value="50" aria-label="price range filter">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products-grid" id="products-grid" role="main" aria-label="products grid">
+                <!-- Products will be loaded dynamically -->
+            </div>
+
+            <!-- Loading Spinner -->
+            <div class="loading-spinner" id="loading-spinner">
+                <div class="spinner"></div>
+                <p>Loading products...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Modal -->
+    <div class="modal-overlay" id="product-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="close modal">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modal-product-image" src="" alt="" loading="lazy">
+                </div>
+                <div class="modal-info">
+                    <h2 id="modal-title"></h2>
+                    <p class="modal-price" id="modal-price"></p>
+                    <div class="modal-rating" id="modal-rating"></div>
+                    <p class="modal-description" id="modal-description"></p>
+                    
+                    <div class="modal-section">
+                        <h3>Key Ingredients</h3>
+                        <ul id="modal-ingredients"></ul>
+                    </div>
+                    
+                    <div class="modal-section">
+                        <h3>Benefits</h3>
+                        <ul id="modal-benefits"></ul>
+                    </div>
+                    
+                    <div class="modal-section">
+                        <h3>Usage Instructions</h3>
+                        <p id="modal-usage"></p>
+                    </div>
+                    
+                    <div class="modal-actions">
+                        <div class="quantity-controls">
+                            <button class="qty-btn" onclick="decreaseQuantity()">-</button>
+                            <span class="quantity" id="modal-quantity">1</span>
+                            <button class="qty-btn" onclick="increaseQuantity()">+</button>
+                        </div>
+                        <button class="add-to-cart-btn" id="modal-add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button class="cart-close" aria-label="close cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items will be populated dynamically -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <strong>Total: $<span id="cart-total">0.00</span></strong>
+            </div>
+            <button class="checkout-btn" id="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div class="modal-overlay" id="checkout-modal" role="dialog" aria-modal="true">
+        <div class="modal-content checkout-content">
+            <button class="modal-close" aria-label="close checkout">&times;</button>
+            <div class="checkout-form">
+                <h2>Checkout</h2>
+                <form id="checkout-form">
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required aria-required="true">
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required aria-required="true">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address">Street Address *</label>
+                        <input type="text" id="address" name="address" required aria-required="true">
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="city">City *</label>
+                            <input type="text" id="city" name="city" required aria-required="true">
+                        </div>
+                        <div class="form-group">
+                            <label for="zipCode">ZIP Code *</label>
+                            <input type="text" id="zipCode" name="zipCode" required aria-required="true">
+                        </div>
+                    </div>
+                    
+                    <div class="order-summary">
+                        <h3>Order Summary</h3>
+                        <div id="checkout-items"></div>
+                        <div class="checkout-total">
+                            <strong>Total: $<span id="checkout-total">0.00</span></strong>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="place-order-btn">Place Order</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Message -->
+    <div class="success-message" id="success-message">
+        <div class="success-content">
+            <span class="success-icon">✅</span>
+            <span class="success-text"></span>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🌿 Herbal Wellness</h3>
+                    <p>Your trusted source for premium natural and organic herbal products.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Care</h4>
+                    <ul>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Herbal Wellness. All rights reserved. | Made with 🌱 for natural living</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

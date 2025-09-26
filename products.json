@@ -1,0 +1,178 @@
+[
+    {
+        "id": 1,
+        "name": "Organic Turmeric Capsules",
+        "price": 24.99,
+        "category": "supplement",
+        "rating": 4.8,
+        "popularity": 95,
+        "image": "data:image/svg+xml,%3Csvg width='280' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='grad1' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23FF8C00;stop-opacity:0.8' /%3E%3Cstop offset='100%25' style='stop-color:%23FF8C00;stop-opacity:0.4' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='280' height='200' fill='url(%23grad1)'/%3E%3Ccircle cx='70' cy='60' r='20' fill='%23FF8C00' opacity='0.6'/%3E%3Ccircle cx='140' cy='100' r='25' fill='%23FF8C00' opacity='0.7'/%3E%3Ccircle cx='210' cy='70' r='18' fill='%23FF8C00' opacity='0.5'/%3E%3Ctext x='140' y='160' text-anchor='middle' fill='%232E7D32' font-size='16' font-weight='bold'%3E🌿 Turmeric 🌿%3C/text%3E%3C/svg%3E",
+        "description": "Premium organic turmeric capsules with curcumin for natural anti-inflammatory support.",
+        "ingredients": [
+            "Organic Turmeric Root",
+            "Curcumin Extract",
+            "Black Pepper Extract"
+        ],
+        "benefits": [
+            "Reduces inflammation",
+            "Supports joint health",
+            "Powerful antioxidant",
+            "Boosts immune system"
+        ],
+        "usage": "Take 1-2 capsules daily with meals or as directed by your healthcare provider."
+    },
+    {
+        "id": 2,
+        "name": "Chamomile Dream Tea",
+        "price": 18.50,
+        "category": "tea",
+        "rating": 4.9,
+        "popularity": 88,
+        "image": "data:image/svg+xml,%3Csvg width='280' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='grad2' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23F0E68C;stop-opacity:0.8' /%3E%3Cstop offset='100%25' style='stop-color:%23F0E68C;stop-opacity:0.4' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='280' height='200' fill='url(%23grad2)'/%3E%3Ccircle cx='70' cy='60' r='20' fill='%23F0E68C' opacity='0.6'/%3E%3Ccircle cx='140' cy='100' r='25' fill='%23F0E68C' opacity='0.7'/%3E%3Ccircle cx='210' cy='70' r='18' fill='%23F0E68C' opacity='0.5'/%3E%3Ctext x='140' y='160' text-anchor='middle' fill='%232E7D32' font-size='16' font-weight='bold'%3E🌿 Chamomile 🌿%3C/text%3E%3C/svg%3E",
+        "description": "Soothing organic chamomile tea blend for relaxation and peaceful sleep.",
+        "ingredients": [
+            "Organic Chamomile Flowers",
+            "Lavender",
+            "Lemon Balm",
+            "Passionflower"
+        ],
+        "benefits": [
+            "Promotes relaxation",
+            "Improves sleep quality",
+            "Reduces anxiety",
+            "Aids digestion"
+        ],
+        "usage": "Steep 1 tea bag in hot water for 5-7 minutes. Drink 30 minutes before bedtime."
+    },
+    {
+        "id": 3,
+        "name": "Ginseng Energy Powder",
+        "price": 32.75,
+        "category": "powder",
+        "rating": 4.7,
+        "popularity": 82,
+        "image": "data:image/svg+xml,%3Csvg width='280' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='grad3' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23CD853F;stop-opacity:0.8' /%3E%3Cstop offset='100%25' style='stop-color:%23CD853F;stop-opacity:0.4' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='280' height='200' fill='url(%23grad3)'/%3E%3Ccircle cx='70' cy='60' r='20' fill='%23CD853F' opacity='0.6'/%3E%3Ccircle cx='140' cy='100' r='25' fill='%23CD853F' opacity='0.7'/%3E%3Ccircle cx='210' cy='70' r='18' fill='%23CD853F' opacity='0.5'/%3E%3Ctext x='140' y='160' text-anchor='middle' fill='%232E7D32' font-size='16' font-weight='bold'%3E🌿 Ginseng 🌿%3C/text%3E%3C/svg%3E",
+        "description": "Pure Korean red ginseng powder for natural energy and mental clarity.",
+        "ingredients": [
+            "Korean Red Ginseng Root",
+            "Panax Ginseng Extract"
+        ],
+        "benefits": [
+            "Boosts energy naturally",
+            "Enhances mental focus",
+            "Supports immune function",
+            "Reduces fatigue"
+        ],
+        "usage": "Mix 1/2 teaspoon with water, juice, or smoothie. Take once daily in the morning."
+    },
+    {
+        "id": 4,
+        "name": "Lavender Essential Oil",
+        "price": 21.99,
+        "category": "oil",
+        "rating": 4.6,
+        "popularity": 76,
+        "image": "data:image/svg+xml,%3Csvg width='280' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='grad4' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%239370DB;stop-opacity:0.8' /%3E%3Cstop offset='100%25' style='stop-color:%239370DB;stop-opacity:0.4' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='280' height='200' fill='url(%23grad4)'/%3E%3Ccircle cx='70' cy='60' r='20' fill='%239370DB' opacity='0.6'/%3E%3Ccircle cx='140' cy='100' r='25' fill='%239370DB' opacity='0.7'/%3E%3Ccircle cx='210' cy='70' r='18' fill='%239370DB' opacity='0.5'/%3E%3Ctext x='140' y='160' text-anchor='middle' fill='%232E7D32' font-size='16' font-weight='bold'%3E🌿 Lavender 🌿%3C/text%3E%3C/svg%3E",
+        "description": "100% pure therapeutic grade lavender essential oil for aromatherapy and wellness.",
+        "ingredients": [
+            "Pure Lavandula Angustifolia Oil"
+        ],
+        "benefits": [
+            "Promotes relaxation",
+            "Reduces stress",
+            "Improves sleep",
+            "Natural aromatherapy"
+        ],
+        "usage": "Add 2-3 drops to diffuser or dilute with carrier oil for topical use. For sleep, apply to pillow."
+    },
+    {
+        "id": 5,
+        "name": "Echinacea Immune Support",
+        "price": 26.40,
+        "category": "supplement",
+        "rating": 4.5,
+        "popularity": 73,
+        "image": "data:image/svg+xml,%3Csvg width='280' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='grad5' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23FF69B4;stop-opacity:0.8' /%3E%3Cstop offset='100%25' style='stop-color:%23FF69B4;stop-opacity:0.4' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='280' height='200' fill='url(%23grad5)'/%3E%3Ccircle cx='70' cy='60' r='20' fill='%23FF69B4' opacity='0.6'/%3E%3Ccircle cx='140' cy='100' r='25' fill='%23FF69B4' opacity='0.7'/%3E%3Ccircle cx='210' cy='70' r='18' fill='%23FF69B4' opacity='0.5'/%3E%3Ctext x='140' y='160' text-anchor='middle' fill='%232E7D32' font-size='16' font-weight='bold'%3E🌿 Echinacea 🌿%3C/text%3E%3C/svg%3E",
+        "description": "Potent echinacea extract capsules to naturally boost immune system function.",
+        "ingredients": [
+            "Echinacea Purpurea Extract",
+            "Echinacea Angustifolia",
+            "Vitamin C"
+        ],
+        "benefits": [
+            "Strengthens immune system",
+            "Reduces cold duration",
+            "Antioxidant protection",
+            "Supports respiratory health"
+        ],
+        "usage": "Take 1 capsule twice daily with food. Increase to 3 times daily during illness."
+    },
+    {
+        "id": 6,
+        "name": "Green Tea Detox Blend",
+        "price": 19.80,
+        "category": "tea",
+        "rating": 4.4,
+        "popularity": 69,
+        "image": "data:image/svg+xml,%3Csvg width='280' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='grad6' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%2390EE90;stop-opacity:0.8' /%3E%3Cstop offset='100%25' style='stop-color:%2390EE90;stop-opacity:0.4' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='280' height='200' fill='url(%23grad6)'/%3E%3Ccircle cx='70' cy='60' r='20' fill='%2390EE90' opacity='0.6'/%3E%3Ccircle cx='140' cy='100' r='25' fill='%2390EE90' opacity='0.7'/%3E%3Ccircle cx='210' cy='70' r='18' fill='%2390EE90' opacity='0.5'/%3E%3Ctext x='140' y='160' text-anchor='middle' fill='%232E7D32' font-size='16' font-weight='bold'%3E🌿 Green Tea 🌿%3C/text%3E%3C/svg%3E",
+        "description": "Organic green tea blend with detoxifying herbs for natural cleansing and metabolism support.",
+        "ingredients": [
+            "Organic Green Tea",
+            "Dandelion Root",
+            "Milk Thistle",
+            "Ginger Root"
+        ],
+        "benefits": [
+            "Supports detoxification",
+            "Boosts metabolism",
+            "Rich in antioxidants",
+            "Aids digestion"
+        ],
+        "usage": "Steep 1 tea bag in hot water for 3-5 minutes. Drink 2-3 cups daily between meals."
+    },
+    {
+        "id": 7,
+        "name": "Ashwagandha Stress Relief",
+        "price": 28.95,
+        "category": "supplement",
+        "rating": 4.7,
+        "popularity": 85,
+        "image": "data:image/svg+xml,%3Csvg width='280' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='grad7' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23DEB887;stop-opacity:0.8' /%3E%3Cstop offset='100%25' style='stop-color:%23DEB887;stop-opacity:0.4' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='280' height='200' fill='url(%23grad7)'/%3E%3Ccircle cx='70' cy='60' r='20' fill='%23DEB887' opacity='0.6'/%3E%3Ccircle cx='140' cy='100' r='25' fill='%23DEB887' opacity='0.7'/%3E%3Ccircle cx='210' cy='70' r='18' fill='%23DEB887' opacity='0.5'/%3E%3Ctext x='140' y='160' text-anchor='middle' fill='%232E7D32' font-size='16' font-weight='bold'%3E🌿 Ashwagandha 🌿%3C/text%3E%3C/svg%3E",
+        "description": "Adaptogenic ashwagandha root extract for stress management and mental balance.",
+        "ingredients": [
+            "Ashwagandha Root Extract",
+            "Withanoside Complex",
+            "Organic Rice Flour"
+        ],
+        "benefits": [
+            "Reduces stress and anxiety",
+            "Improves sleep quality",
+            "Supports adrenal health",
+            "Enhances mental clarity"
+        ],
+        "usage": "Take 1-2 capsules daily with food, preferably in the evening for best results."
+    },
+    {
+        "id": 8,
+        "name": "Peppermint Digestive Tea",
+        "price": 16.75,
+        "category": "tea",
+        "rating": 4.6,
+        "popularity": 71,
+        "image": "data:image/svg+xml,%3Csvg width='280' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='grad8' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%2398FB98;stop-opacity:0.8' /%3E%3Cstop offset='100%25' style='stop-color:%2398FB98;stop-opacity:0.4' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='280' height='200' fill='url(%23grad8)'/%3E%3Ccircle cx='70' cy='60' r='20' fill='%2398FB98' opacity='0.6'/%3E%3Ccircle cx='140' cy='100' r='25' fill='%2398FB98' opacity='0.7'/%3E%3Ccircle cx='210' cy='70' r='18' fill='%2398FB98' opacity='0.5'/%3E%3Ctext x='140' y='160' text-anchor='middle' fill='%232E7D32' font-size='16' font-weight='bold'%3E🌿 Peppermint 🌿%3C/text%3E%3C/svg%3E",
+        "description": "Refreshing organic peppermint tea blend for digestive support and natural freshness.",
+        "ingredients": [
+            "Organic Peppermint Leaves",
+            "Fennel Seeds",
+            "Ginger Root",
+            "Licorice Root"
+        ],
+        "benefits": [
+            "Soothes digestive discomfort",
+            "Relieves nausea",
+            "Freshens breath naturally",
+            "Reduces bloating"
+        ],
+        "usage": "Steep 1 tea bag in boiling water for 3-5 minutes. Drink after meals for digestive support."
+    }
+]
